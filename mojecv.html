@@ -1,182 +1,451 @@
-
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport"content="width=device-width,initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible"content="IE=edge">
-<meta name="google-site-verification"content="OsbVLPxLdiDu4B-2CUNDz1Wfz_lYDX1pNYclv5nWgyo">
-<meta name="description"content="Damian Lewandowski - folio CV. Strona zrobiona przeze mnie samego do celów pokazowych i edukacyjnych."/>
-<meta name="keywords"content="portfolio, umiejętności, cv, doskonalenie się, webdev, developer, html, css, javascript, php"/>
-<meta name="author"content="Damian Lewandowski"/>
-<link href="http://fonts.googleapis.com/css?family=Alegreya&subset=latin,latin-ext"rel="stylesheet"type="text/css">
-<link href="/images/logo_DL_invert.png"rel="Shortcut icon">
-<link href="../css/cvStyle.css"rel="stylesheet"type="text/css">
-<script type="text/javascript"src="/js/jquery-1.10.2.js"></script>
-<title>Damian Lewandowski | Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Cześć, oto moje elektroniczne CV, które stworzyłem w celach rekrutacyjnych, starając się używać HTML5 i CSS3"
+  />
+  <meta name="keywords" content="damian, lewandowski, 09-407 płock, damian lewandowski facebook, portfolio, umiejętności, cv, doskonalenie się, webdev, fron-end developer, php, html5, css3, javascript">
+  <meta name="author" content="Damian Lewandowski">
+  <link href="http://fonts.googleapis.com/css?family=Alegreya&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+  <link href="/images/logo_DL.png" rel="Shortcut icon">
+  <link href="../css/cvStyle.css" rel="stylesheet" type="text/css">
+  <title>Damian Lewandowski | Portfolio</title>
 </head>
 
 <body>
-<div class="content">
-  <nav class="nav_container">
-  <button class="menu-toggle"><hr class="mini-line"/><hr class="mini-line"/><hr class="mini-line"/></button>
-  <ul class="menu">
-    <li class="left menu-item"><a href="strona-glowna">Strona główna</a></li>
-    <li class="left menu-item"><a href="#exp">Doświadczenie zawodowe</a></li>
-    <li class="left menu-item"><a href="#edu">Edukacja</a></li>
-    <li class="left menu-item"><a href="#skills">Umiejętności</a></li>
-    <li class="left menu-item"><a href="#hobby">Hobby</a></li>
-  </ul>
+  <h1 class="section-title">
+    CV Damiana Lewandowskiego
+  </h1>
+  <nav class="nav-container">
+    <h2 class="section-title">
+      Menu
+    </h2>
+    <button class="menu-toggle"></button>
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="strona-glowna">
+          Strona główna
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#experience">
+          Doświadczenie zawodowe
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#education">
+          Edukacja
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#skills">
+          Umiejętności
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#hobby">
+          Hobby
+        </a>
+      </li>
+    </ul>
   </nav>
-
   <div class="stripes">
     <div class="first-stripe">
       <article class="info">
-        <p>Damian Lewandowski</p>
+        <h2 class="section-title">
+          Dane podstawowe
+        </h2>
+        <h3>
+          Damian Lewandowski
+        </h3>
         <picture class="photo">
-          <img src="images/me.jpg"alt="Damian Lewandowski siedzący w czapce"class="me">
+          <img src="images/me.jpg" alt="Damian Lewandowski siedzący w czapce" class="me">
         </picture>
         <div class="clear"></div>
-        <p>Dane osobowe</p>
-        <br><b>Data urodzenia:</b><br>
-        14.03.1990<br>
-        <b>Adres:</b><br>
-        09-407 Płock<br>
-        <b>Telefon:</b><br>
-        +48 792 091 518<br>
-        <b>E-mail:</b><br>
-        lewandowski.d90@gmail.com<br>
-        <br><p>Programy</p><br>
-        - SAP<br>
-        - Adobe Photoshop<br>
-        - Adobe InDesign<br>
-        - Adobe Illustrator<br>
-        - 3D Studio Max + V-ray<br>
-        - Marmoset Toolbag<br>
-        - Sublime Text 3<br>
-        <br><p>Języki obce</p><br>
-        <ul class="lang">- Angielski:<br>
-        <li class="lang-item"><div class="circle white"></div></li>
-        <li class="lang-item"><div class="circle white"></div></li>
-        <li class="lang-item"><div class="circle white"></div></li>
-        <li class="lang-item"><div class="circle darkblue"></div></li>
-        <li class="lang-item"><div class="circle darkblue"></div></li>
-        <li class="lang-item">średni</li><br><br>
+        <h3>
+          Dane osobowe
+        </h3>
+        <span>
+          <strong>
+            Data urodzenia:
+          </strong>
+        </span>
+        <span>
+          <time datetime="1990-03-14">
+            14.03.1990
+          </time>
+        </span>
+        <span>
+          <strong>
+            Adres:
+          </strong>
+        </span>
+        <span>
+          09-407 Płock
+        </span>
+        <span>
+          <strong>
+            Telefon:
+          </strong>
+        </span>
+        <span>
+          <a href="tel+48792091518">
+            +48 792 091 518
+          </a>
+        </span>
+        <span>
+          <strong>
+            E-mail:
+          </strong>
+        </span>
+        <span>
+          <a href="mailto:lewandowski.d90@gmail.com">
+            lewandowski.d90@gmail.com
+          </a>
+        </span>
+        <h3>
+          Programy
+        </h3>
+        <span>
+          - SAP
+        </span>
+        <span>
+          - Adobe Photoshop
+        </span>
+        <span>
+          - Adobe InDesign
+        </span>
+        <span>
+          - Adobe Illustrator
+        </span>
+        <span>
+          - 3D Studio Max + V-ray
+        </span>
+        <span>
+          - Marmoset Toolbag
+        </span>
+        <span>
+          - Sublime Text 3
+        </span>
+        <h3>
+          Języki obce
+        </h3>
+        <ul class="lang">
+          <li class="lang-item">
+            - Angielski:
+          </li>
+          <li class="lang-item">
+            <div class="circle white"></div>
+          </li>
+          <li class="lang-item">
+            <div class="circle white"></div>
+          </li>
+          <li class="lang-item">
+            <div class="circle white"></div>
+          </li>
+          <li class="lang-item">
+            <div class="circle darkblue"></div>
+          </li>
+          <li class="lang-item">
+            <div class="circle darkblue"></div>
+          </li>
+          <li class="lang-item">
+            średni
+          </li>
         </ul>
-        <ul class="lang">- Niemiecki:<br>
-        <li class="lang-item"><div class="circle white"></div></li>
-        <li class="lang-item"><div class="circle white"></div></li>
-        <li class="lang-item"><div class="circle white"></div></li>
-        <li class="lang-item"><div class="circle darkblue"></div></li>
-        <li class="lang-item"><div class="circle darkblue"></div></li>
-        <li class="lang-item">średni</li>
+        <ul class="lang">
+          <li class="lang-item">
+            - Niemiecki:
+          </li>
+          <li class="lang-item">
+            <div class="circle white"></div>
+          </li>
+          <li class="lang-item">
+            <div class="circle white"></div>
+          </li>
+          <li class="lang-item">
+            <div class="circle white"></div>
+          </li>
+          <li class="lang-item">
+            <div class="circle darkblue"></div>
+          </li>
+          <li class="lang-item">
+            <div class="circle darkblue"></div>
+          </li>
+          <li class="lang-item">
+            średni
+          </li>
         </ul>
-        <br><p>Dodatkowo</p><br>
-        - Prawo jazdy kat. B (od 2008r)
+        <h3>
+          Dodatkowo
+        </h3>
+        <span>
+          - Prawo jazdy kat. B (od 2008r)
+        </span>
       </article>
-    </div> <!-- koniec first-stripe -->
+    </div>
+    <!-- koniec first-stripe -->
     <div class="second-stripe">
       <article class="description">
-        <br>
-        <hr class="line">
-        <p id="exp">Doświadczenie zawodowe</p>
-        <hr class="line">
-        <br>
-          <div class="desc-flex-container">
-            <div class="date">od 15.03.2016 do 01.06.2016
-            </div>
-            <div class="text"><b>ProA Sp. z o.o</b><br>
-            <b>Stanowisko: </b>Pracownik biurowy / informatyk<br>
-            <b>Zakres obowiązków: </b><br>
-            - tworzenie portalu demonstracyjnego: <a href="http://www.przedtestem.edu.pl">www.przedtestem.edu.pl</a><br>
-            - przygotowywanie zestawień raportowych SAP dla migracji danych Anwil - Orlen<br>
-            - przygotowywanie dokumentacji technicznej transakcji SAP dla migracji danych Anwil - Orlen<br>
-            </div>
-            <div class="date">od 01.11.2013 do 01.12.2015
-            </div>
-            <div class="text"><b>Placówka Partnerska Banku Zachodniego WBK S.A. nr 3 w&nbsp;Sierpcu</b>, reprezentowana przez Pawła Kalotę&nbsp;-&nbsp;Partnera BZ WBK S.A.<br>
-            <b>Stanowisko:</b> doradca finansowy klienta / sprzedawca produktów finansowych<br>
-            <b>Zakres obowiązków:</b><br>
-            - dbanie o jakość portfela Placówki Partnerskiej BZ WBK S.A.<br>
-            - pozyskiwanie nowych klientów dla Placówki Partnerskiej BZ WBK S.A.<br>
-            - wykonywanie miesięcznego planu poprzez sprzedaż produktów bankowych<br>
-            - budowanie relacji z klientem<br>
-            </div>
-            <div class="date">od 01.03.2013 do 01.06.2013
-            </div>
-            <div class="text"><b>Urząd Skarbowy w Płocku</b><br>
-            <b>Stanowisko:</b> stażysta, jako pracownik biurowy ds. wprowadzania danych do komputera<br>
-            <b>Zakres obowiązków:</b><br>
-            - głównie: wprowadzanie danych do systemu informatycznego<br>
-            - czasem: obsługa interesanów w sali głównej<br><br>
-            </div>
-          </div><!-- koniec desc flex container -->
-        <hr class="line">
-        <p id="edu">Edukacja</p>
-        <hr class="line">
-        <br>
-          <div class="desc-flex-container">
-            <div class="date">obecnie
-            </div>
-            <div class="text"><b>Uniwersytet Ekonomiczny w Poznaniu</b><br>
-            Wydział: Informatyki i Gospodarki Elektronicznej<br>
-            Kierunek: Informatyka i ekonometria<br>
-            Specjalność: Informatyka w gospodarce<br>
-            II stopnień studiów w systemie zaocznym<br>
-            </div>
-            <div class="date">od 2009 do 2012
-            </div>
-            <div class="text"><b>Politechnika Warszawska</b><br>
-            Wydział: Kolegium Nauk Ekonomicznych i Społecznych<br>
-            Kierunek: Ekonomia<br>
-            Specjalność: Informatyka w ekonomii<br>
-            Stopień: Licencjat<br><br>
-            </div>
-          </div><!-- koniec desc flex container -->
-        <hr class="line">
-        <p id="skills">Umiejętności i cechy osobowości</p>
-        <hr class="line">
-        <br>
-          <div class="desc-flex-container">
-            <div class="date"></div>
-            <div class="text">
-            - optymalizacja procesów w podjętych zadaniach<br>
-            - samodzielność nauki i szybkie przyswajanie wniosków przydatnych do pracy<br>
-            - łatwość nawiązywania współpracy i kontaktu z klientami oraz współpracownikami<br>
-            - umiejętność pracy pod presją czasu / stresu<br>
-            - punktualność, otwartość, umiejętność pracy w&nbsp;zespole<br>
-            - chęć do poznawania nowych dziedzin, zdobywania nowych umiejętności, podnoszenia kwalifikacji<br>
-            - podstawy wiedzy nt. sieci LAN i&nbsp;praktyczna wiedza nt. konfiguracji routerów, komputerów, urządzeń WI-FI, dostępu do Internetu, ich zabezpieczeń<br>
-            - podstawy SQL, nauka na własną rękę w oparciu o SQLpedia.pl i MS Server 2014 Managament Studio,<br>
-            - podstawy HTML, CSS, JS, MySql, nauka na własną rękę w oparciu o stworzenie niniejszej strony oraz portalu demonstracyjnego: <a href="http://www.przedtestem.edu.pl">www.przedtestem.edu.pl</a><br><br>
-            </div>
-          </div><!-- koniec desc flex container -->
-        <hr class="line">
-        <p id="hobby">Hobby</p>
-        <hr class="line">
-        <br>
-          <div class="desc-flex-container">
-            <div class="date"></div>
-            <div class="text">
-            - tworzenie stron www,<br>
-            - wizualizacje 3D (wnętrza, pojedyncze przedmioty),<br>
-            - grafika 2D (na własną rękę poszukuję wiedzy o&nbsp;DTP, o&nbsp;pracy w&nbsp;InDesign, Illustrator, Photoshop - plakaty, wizytówki, CV, tekstury modeli do gier),<br>
-            - grafika komputerowa (próbuję sił w&nbsp;tworzeniu modeli i&nbsp;tekstur na potrzeby gier - tutaj dawna mała współpraca z&nbsp;Huckleberry Studio nad grą Edengrad),<br>
-            - serwisowanie komputerów, głównie laptopów,<br>
-            - eco-driving,<br>
-            - akwarystyka,<br>
-            - żeglarstwo (regaty na Zalewie Włocławskim),<br>
-            - piłka nożna (głównie udział w Lidze Nike PlayArena)<br><br>
-            </div>
-          </div><!-- koniec desc flex container -->
+        <h2 class="section-title">
+          Dane opisujące
+        </h2>
+        <h3 id="experience">
+          Doświadczenie zawodowe
+        </h3>
+        <div class="description-container">
+          <div class="date">
+            od 
+            <time datetime="2016-03-15">
+              15.03.2016 
+            </time>
+              do 
+            <time datetime="2016-06-02">
+              02.06.2016
+            </time>
+          </div>
+          <div class="text">
+            <span>
+              <strong>
+                ProA Sp. z o.o
+              </strong>
+            </span>
+            <p>
+              <strong>
+                Stanowisko: 
+              </strong>
+              Pracownik biurowy / informatyk
+            </p>
+            <span>
+              <strong>
+                Zakres obowiązków:
+              </strong>
+            </span>
+            <span>
+              - tworzenie portalu demonstracyjnego:
+              <a href="http://www.przedtestem.edu.pl">
+                www.przedtestem.edu.pl
+              </a>
+            </span>
+            <span>
+              - przygotowywanie zestawień raportowych SAP dla migracji danych Anwil - Orlen
+            </span>
+            <span>
+              - przygotowywanie dokumentacji technicznej transakcji SAP dla migracji danych Anwil - Orlen
+            </span>
+          </div>
+          <div class="date">
+            od 
+            <time datetime="2013-11-01">
+              01.11.2013 
+            </time>
+            do 
+            <time datetime="2015-12-01">
+              01.12.2015
+            </time>
+          </div>
+          <div class="text">
+            <span>
+              <strong>Placówka Partnerska Banku Zachodniego WBK S.A. nr 3 w&nbsp;Sierpcu,
+              </strong>reprezentowana przez Pawła Kalotę&nbsp;-&nbsp;Partnera BZ WBK S.A.
+            </span>
+            <p>
+              <strong>
+                Stanowisko: 
+              </strong>
+              doradca finansowy klienta / sprzedawca produktów finansowych
+            </p>
+            <span>
+              <strong>
+                Zakres obowiązków:
+              </strong>
+            </span>
+            <span>- dbanie o jakość portfela Placówki Partnerskiej BZ WBK S.A.
+            </span>
+            <span>- pozyskiwanie nowych klientów dla Placówki Partnerskiej BZ WBK S.A.
+            </span>
+            <span>- wykonywanie miesięcznego planu poprzez sprzedaż produktów bankowych
+            </span>
+            <span>- budowanie relacji z klientem
+            </span>
+          </div>
+          <div class="date">
+            od 
+            <time datetime="2013-03-01">
+              01.03.2013 
+            </time>
+            do 
+            <time datetime="2013-06-01">
+            01.06.2013
+            </time>
+          </div>
+          <div class="text">
+            <span>
+              <strong>
+                Urząd Skarbowy w Płocku
+              </strong>
+            </span>
+            <p>
+              <strong>
+                Stanowisko: 
+              </strong>
+              stażysta, jako pracownik biurowy ds. wprowadzania
+            danych do komputera
+            </p>
+            <span>
+              <strong>
+                Zakres obowiązków:
+              </strong>
+            </span>
+            <span>
+              - głównie: wprowadzanie danych do systemu informatycznego
+            </span>
+            <span>
+              - czasem: obsługa interesanów w sali głównej
+            </span>
+          </div>
+        </div>
+        <!-- koniec description-container -->
+        <h3 id="education">
+          Edukacja
+        </h3>
+        <div class="description-container">
+          <div class="date">
+            obecnie
+          </div>
+          <div class="text">
+            <p>
+              <strong>
+                Uniwersytet Ekonomiczny w Poznaniu
+              </strong>
+            </p>
+            <span>
+              Wydział: Informatyki i Gospodarki Elektronicznej
+            </span>
+            <span>
+              Kierunek: Informatyka i ekonometria
+            </span>
+            <span>
+              Specjalność: Informatyka w gospodarce
+            </span>
+            <span>
+              II stopnień studiów w systemie zaocznym
+            </span>
+          </div>
+          <div class="date">
+            od 
+            <time datetime="2009">
+              2009 
+            </time>
+            do 
+            <time datetime="2012">
+              2012
+            </time>
+          </div>
+          <div class="text">
+            <p>
+              <strong>
+                Politechnika Warszawska
+              </strong>
+            </p>
+            <span>
+              Wydział: Kolegium Nauk Ekonomicznych i Społecznych
+            </span>
+            <span>
+              Kierunek: Ekonomia
+            </span>
+            <span>
+              Specjalność: Informatyka w ekonomii
+            </span>
+            <span>
+              Stopień: Licencjat
+            </span>
+          </div>
+        </div>
+        <!-- koniec description-container -->
+        <h3 id="skills">
+          Umiejętności i cechy osobowości
+        </h3>
+        <div class="description-container">
+          <div class="text wide">
+            <span>
+              - optymalizacja procesów w podjętych zadaniach
+            </span>
+            <span>
+              - samodzielność nauki i szybkie przyswajanie wniosków przydatnych do pracy
+            </span>
+            <span>
+              - łatwość nawiązywania współpracy i kontaktu z klientami oraz współpracownikami
+            </span>
+            <span>
+              - umiejętność pracy pod presją czasu / stresu
+            </span>
+            <span>
+              - punktualność, otwartość, umiejętność pracy w&nbsp;zespole
+            </span>
+            <span>
+              - chęć do poznawania nowych dziedzin, zdobywania nowych umiejętności, podnoszenia kwalifikacji
+            </span>
+            <span>
+              - podstawy wiedzy nt. sieci LAN i&nbsp;praktyczna wiedza nt. konfiguracji routerów, komputerów, urządzeń WI-FI, dostępu do Internetu, ich zabezpieczeń
+            </span>
+            <span>
+              - nauka SQL na własną rękę w oparciu o SQLpedia.pl i MS Server 2014 Managament Studio,
+            </span>
+            <span>- podstawy HTML, CSS, JS, MySql, nauka na własną rękę w oparciu o stworzenie niniejszej strony oraz portalu demonstracyjnego: 
+              <a href="http://www.przedtestem.edu.pl">
+                www.przedtestem.edu.pl
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- koniec description-container -->
+        <h3 id="hobby">
+          Hobby
+        </h3>
+        <div class="description-container">
+          <div class="text wide">
+            <span>
+              - tworzenie stron www,
+            </span>
+            <span>
+              - wizualizacje 3D (wnętrza, pojedyncze przedmioty),
+            </span>
+            <span>
+              - grafika 2D (na własną rękę poszukuję wiedzy o&nbsp;DTP, o&nbsp;pracy w&nbsp;InDesign, Illustrator, Photoshop - plakaty, wizytówki, CV, tekstury modeli do gier),
+            </span>
+            <span>
+              - grafika komputerowa (próbuję sił w&nbsp;tworzeniu modeli i&nbsp;tekstur na potrzeby gier - tutaj dawna mała współpraca z&nbsp;Huckleberry Studio nad grą Edengrad),
+            </span>
+            <span>
+              - serwisowanie komputerów, głównie laptopów,
+            </span>
+            <span>
+              - eco-driving,
+            </span>
+            <span>
+              - akwarystyka,
+            </span>
+            <span>
+              - żeglarstwo (regaty na Zalewie Włocławskim),
+            </span>
+            <span>
+              - piłka nożna (głównie udział w Lidze Nike PlayArena)
+            </span>
+          </div>
+        </div>
+        <!-- koniec description-container -->
       </article>
-
-    </div> <!-- koniec second-stripe -->
-  </div><!-- koniec stripes -->
-  <div class="clear"></div>
-
-</div><!-- koniec content -->
-  <script type="text/javascript"src="js/togglebutton.js"></script>
+    </div>
+    <!-- koniec second-stripe -->
+  </div>
+  <!-- koniec stripes -->
+  <script type="text/javascript" src="/js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/togglebutton.js"></script>
 </body>
 
 </html>
