@@ -1,6 +1,6 @@
 //przycisk menu
-var nav_container= document.querySelector('.nav_container');
-var menu = document.querySelector('.menu0');
+var nav_container= document.querySelector('.nav-container');
+var menu = document.querySelector('.menu');
 var menuButton = document.querySelector('.menu-toggle');
   menuButton.addEventListener('click', function () {
   nav_container.classList.toggle('visible');
